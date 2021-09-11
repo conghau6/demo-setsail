@@ -191,6 +191,7 @@
 }
 
 select.slier1__form-input, option {
+    background-color: transparent;
     opacity: 0.7;
 }
 

@@ -4,6 +4,9 @@
     .header__account--mobile i {
         font-size: 24px;
     }
+    .header {
+        padding: 0 30px;
+    }
     .logo-mobile {
         width: 60%;
     }
@@ -53,6 +56,9 @@
 }
 /* Tablet: width >= 740px and width < 1024px */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .header {
+        padding: 0 60px;
+    }
     .header__menu--mobile i,
     .header__account--mobile i {
         font-size: 24px;
@@ -87,7 +93,6 @@
 /* Tablet and mobile */
 @media only screen and (max-width: 63.9375em){
     .header {
-        padding: 0 60px;
         justify-content: space-between;
         background-color: var(--primary-color);
     }
