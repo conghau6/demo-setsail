@@ -129,9 +129,7 @@
 }
 
 
-.slider1__item h3,
-.slider1__item h1,
-.slider1__item p {
+.slider1__item h3, .slider1__item h1, .slider1__item p {
     padding-top: 74px;
     color: var(--white-color);
 }
@@ -177,18 +175,25 @@
     border-right: 1px solid #eee;
 }
 
-.slider1__form-row i {
+.slider1__form-row i
+ {
     font-size: 18px;
     opacity: 0.7;
 }
 
 .slier1__form-input {
+    width: 85%;
     border: none;
     outline: none;
     margin-left: 10px;
     font-size: 14px;
     height: 40px;
 }
+
+select.slier1__form-input, option {
+    opacity: 0.7;
+}
+
 
 .slider1__form-row--btn {
     display: flex;
