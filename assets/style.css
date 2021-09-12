@@ -18,7 +18,7 @@
 /* Header */
 
 .header {
-    z-index: 1;
+    z-index: 3;
     display: flex;
     position: fixed;
     padding: 0 10px;
@@ -95,6 +95,57 @@
 
 .header__about i {
     font-size: 24px;
+}
+
+.header__menu--mobile {
+    position: relative;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.header__menu-mobile-list {
+    margin: 0;
+    padding: 0 30px;
+    position: absolute;
+    list-style: none;
+    background-color: var(--white-color);
+    width: 100vw;
+    top: 74px;
+    /* Dùng js thì bỏ 2 thuộc tính dưới */
+    display: none;
+    animation: fadeIn ease-in 0.4s;
+}
+
+/* dùng js thì không cần đoạn này */
+.header__menu--mobile:hover .header__menu-mobile-list{
+    display: block;
+}
+
+.header__menu-mobile-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+}
+
+.header__menu-mobile-link {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 0;
+    color: var(--text-color) !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+.header__menu-mobile-link .header__menu-mobile-icon {
+    font-size: 14px;
 }
 
 

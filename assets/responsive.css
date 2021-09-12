@@ -1,12 +1,10 @@
 /* Mobile: width < 740px */
 @media only screen and (max-width: 46.1875em){
-    .header__menu--mobile i,
-    .header__account--mobile i {
+    .header__menu--mobile .menu-mobile-icon,
+    .header__account--mobile .account-mobile-icon {
         font-size: 24px;
     }
-    .header {
-        padding: 0 30px;
-    }
+    
     .logo-mobile {
         width: 60%;
     }
@@ -31,7 +29,7 @@
         margin-top: -320px;
     }
     .slider1__form {
-        width: 70vw;
+        width: 85vw;
         height: 280px;
     }
 }
@@ -88,6 +86,9 @@
     .slider1__sub-content {
         margin-top: -80px;
     }
+    .slider1__form {
+        width: 70vw;
+    }
 }
 
 /* Tablet and mobile */
@@ -98,6 +99,16 @@
     }
     .header__menu, .header__about, img.logo{
         display: none;
+    }
+    .header {
+        padding: 0;
+        justify-content: space-between;
+    }
+    .header__menu--mobile i{
+        padding-left: 30px;
+    }
+    .header__account--mobile i{
+        padding-right: 30px;
     }
     .header__logo {
         display: flex;
@@ -113,19 +124,17 @@
     }
     .header__menu--mobile,
     .header__account--mobile {
-        width: 20px;
         display: flex;
         align-items: center ;
     }
     
-    .header__menu--mobile a,
+    .header__menu--mobile .menu-mobile-icon,
     .header__account--mobile a {
         text-decoration: none;
         color: var(--white-color);
     }
 
     .slider1__form {
-        width: 70vw;
         height: 280px;
     }
     .slider1__form {
