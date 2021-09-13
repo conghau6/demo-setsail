@@ -310,6 +310,13 @@ select.slier1__form-input, option {
     height: 253px;
     margin-bottom: 30px;
 }
+.places__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .spain-img.logo {
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
 }
