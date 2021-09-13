@@ -329,12 +329,14 @@ select.slier1__form-input, option {
 }
 
 .places__item {
+    position: relative;
     display: block;
     text-decoration: none;
     width: 100%;
     height: 253px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     overflow: hidden;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
 .places__item img {
     width: 100%;
@@ -351,13 +353,12 @@ select.slier1__form-input, option {
     justify-content: center;
 }
 .places__logo {
-    position: relative;
     display: block;
     width: 260px;
     height: 260px !important;
     border-radius: 50%;
 }
-.places__logo > div {
+.places__logo.places__item > div {
     position: absolute;
     top: 0;
     left: 0;
@@ -366,11 +367,40 @@ select.slier1__form-input, option {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: auto;
 }
 .places__logo-span {
     font-size: 52px;
     font-family: Satisfy;
     color: var(--white-color);
     font-weight: 100;
-    text-shadow: 1px 0px 10px #000;
+}
+.places__item > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+.places__info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.places__info-name, .places__price{
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 18px;
+}
+.places__info-rate {
+    font-weight: 500;
+    color: var(--white-color);
+}
+.place__info-rate--status {
+    margin-right: 10px;
+}
+.places__info-name {
+    margin-bottom: 10px;
 }
