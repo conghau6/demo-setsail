@@ -21,7 +21,7 @@
     z-index: 3;
     display: flex;
     position: fixed;
-    padding: 0 10px;
+    padding: 0 40px;
     top: 0;
     left: 0;
     right: 0;
@@ -29,12 +29,37 @@
     background-color: #fff;
 }
 
+.header__menu--mobile,
+.header__account--mobile,
+img.logo-mobile {
+    display: none;
+}
+img.logo {
+    display: block;
+    width: 90%;
+    min-width: 90px;
+}
+
+.header__logo {
+    align-items: center;
+    justify-content: center;
+    max-width: 160px;
+    min-width: 126px;
+}
+
 .header__logo a {
     display: block;
 }
 
 .header__menu, .header__about, .header__logo {
+    height: 100%;
     display: flex;
+    align-items: center;
+}
+
+.header__about {
+    position: absolute;
+    right: 40px;
 }
 
 .header__menu {
@@ -84,7 +109,6 @@
 .header__about {
     align-items: center;
     justify-content: flex-end;
-    width: 200px;
 }
 
 .header__about > a {
@@ -117,7 +141,7 @@
     list-style: none;
     background-color: var(--white-color);
     width: 100vw;
-    top: 74px;
+    top: 100%;
     /* Dùng js thì bỏ 2 thuộc tính dưới */
     display: none;
     animation: fadeIn ease-in 0.4s;
@@ -263,4 +287,29 @@ select.slier1__form-input, option {
 
 .slider1__form-row--btn:hover {
     background-color: var(--primary-color-hover);
+}
+
+/* Places */
+.places {
+    padding: 0 6%;
+    background-color: #fff;
+    height: auto;
+}
+.places a {
+    display: block;
+}
+.places__title {
+    height: 200px;
+}
+
+.spain-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: burlywood;
+    height: 253px;
+    margin-bottom: 30px;
+}
+.spain-img.logo {
+    border-radius: 50%;
 }

@@ -1,0 +1,25 @@
+@media (max-width: 739px) {
+    .places {
+        padding: 0 14%;
+    }
+    .spain-img {
+        height: 298px;
+    }
+}
+@media (min-width: 740px) {
+
+}
+@media (min-width: 1113px) {
+
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+    .places {
+        padding: 0 5%;
+    }
+    .spain-img {
+        height: 366px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+
+}
