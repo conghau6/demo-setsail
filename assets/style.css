@@ -380,7 +380,7 @@ select.slier1__form-input, option {
     justify-content: space-between;
     align-items: flex-end;
     position: absolute;
-    bottom: 20px;
+    bottom: 10%;
     left: 20px;
     right: 20px;
 }
