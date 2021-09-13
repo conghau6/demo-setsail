@@ -35,3 +35,12 @@ body {
 .owl-carousel .item {
     cursor: pointer;
 }
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: 1.1;
+    }
+}

@@ -2,7 +2,7 @@
     .places {
         padding: 0 14%;
     }
-    .spain-img {
+    .places__item {
         height: 298px;
     }
 }
@@ -14,10 +14,10 @@
 }
 @media (min-width: 740px) and (max-width: 1023px) {
     .places {
-        padding: 0 5%;
+        padding: 0 12%;
     }
-    .spain-img {
-        height: 366px;
+    .places__item {
+        height: 500px;
     }
 }
 @media (min-width: 1024px) and (max-width: 1239px) {

@@ -74,6 +74,18 @@
     .slider1__sub-content {
         margin-top: -320px;
     }
+    .places__title {
+        padding: 0 5%;
+        margin-top: 148px;
+        margin-bottom: 72px;
+    }
+    .places__title-sub-title, .places__title-heading {
+        margin-bottom: 28px;
+    }
+    .places__title-heading {
+        font-size: 36px;
+    }
+    
 }
     
 /* Tablet: width >= 740px and width < 1024px */
@@ -163,6 +175,10 @@
     }
     .slider1__form {
         width: 70vw;
+    }
+    .places__title {
+        padding: 0 10%;
+        margin-top: 350px;
     }
 }
 
