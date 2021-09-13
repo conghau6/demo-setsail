@@ -87,6 +87,10 @@
     }
     .places__item > div {
     }
+    .places__footer-img {
+        height: 72px;
+        margin-bottom: 60px;
+    }
 }
     
 /* Tablet: width >= 740px and width < 1024px */
@@ -180,6 +184,10 @@
     .places__title {
         padding: 0 10%;
         margin-top: 350px;
+    }
+    .places__footer-img {
+        height: 72px;
+        margin-bottom: 60px;
     }
 }
 

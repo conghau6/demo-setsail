@@ -404,3 +404,13 @@ select.slier1__form-input, option {
 .places__info-name {
     margin-bottom: 10px;
 }
+.places__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.places__footer-img {
+    margin-top: 32px;
+    margin-bottom: 100px;
+    display: block;
+}

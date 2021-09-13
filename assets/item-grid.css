@@ -5,9 +5,12 @@
     .places__item {
         height: 278px;
     }
+    .row__2 {
+        flex-direction: column-reverse;
+    }
 }
 @media (min-width: 740px) {
-
+    
 }
 @media (min-width: 1113px) {
 
@@ -19,7 +22,12 @@
     .places__item {
         height: 500px;
     }
+    .row__2 {
+        flex-direction: column-reverse;
+    }
 }
 @media (min-width: 1024px) and (max-width: 1239px) {
-
+    .row__2 {
+        flex-direction: column-reverse;
+    }
 }
