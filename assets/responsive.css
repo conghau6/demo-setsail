@@ -85,6 +85,9 @@
     .places__title-heading {
         font-size: 32px;
     }
+    .places__item > div {
+        bottom: 15%;
+    }
 }
     
 /* Tablet: width >= 740px and width < 1024px */
