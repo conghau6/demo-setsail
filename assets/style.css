@@ -428,18 +428,23 @@ select.slier1__form-input, option {
     flex-direction: column;
     color: var(--white-color);
 }
+.places__slider-heading-sub-title,
 .ex__heading-sub-title {
     font-family: Satisfy;
     font-size: 40px;
-    margin-top: 120px;
     font-weight: 400;
 }
+.ex__heading-sub-title{
+    margin-top: 120px;
+}
+
+.places__slider-heading-main-title,
 .ex__heading-main-title {
     text-align: center;
     font-size: 64px;
     margin-top: 48px;
 }
-
+.places__slider-heading-desc,
 .ex__heading-desc {
     text-align: center;
     margin-top: 40px;
@@ -451,15 +456,17 @@ select.slier1__form-input, option {
     margin-top: 50px;
     padding-bottom: 20px;
 }
+
 .ex__content {
-    padding: 150px 10% 0;
-    height: 500px;
+    padding: 150px 10% 80px;
 }
 .ex__content-hint {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+.ex__content-hint {
     height: 200px;
 }
 .content__hint-title {
@@ -478,4 +485,20 @@ select.slier1__form-input, option {
 }
 .content__hint-img:hover {
     transform: translateY(-8%);
+}
+.places__slider {
+    background-color: #F8F8F8;
+    height: 500px;
+}
+
+/* Places slider */
+.places__slider-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.places__slider-heading-sub-title {
+    margin-top: 100px;
 }

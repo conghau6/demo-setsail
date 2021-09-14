@@ -117,6 +117,15 @@
         margin-top: 50px;
         padding-bottom: 20px;
     }
+    .ex__content {
+        padding: 100px 10% 0;
+    }
+    .ex__content .col-item {
+        margin-bottom: 35px;
+    }
+    .content__hint-desc {
+        padding: 0 20%;
+    }
 }
     
 /* Tablet: width >= 740px and width < 1024px */
@@ -214,6 +223,15 @@
     .places__footer-img {
         height: 72px;
         margin-bottom: 60px;
+    }
+    .ex__content {
+        padding: 100px 10% 0;
+    }
+    .ex__content .col-item {
+        margin-bottom: 35px;
+    }
+    .content__hint-desc {
+        padding: 0 20%;
     }
 }
 
