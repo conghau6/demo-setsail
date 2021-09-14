@@ -291,7 +291,7 @@ select.slier1__form-input, option {
 
 /* Places */
 
-.places__title {
+.places__heading {
     padding: 0 25%;
     display: flex;
     flex-direction: column;
@@ -299,19 +299,19 @@ select.slier1__form-input, option {
     margin-top: 200px;
     height: 200px;
 }
-.places__title-sub-title {
+.places__heading-sub-title {
     margin-bottom: 40px;
     font-size: 34px;
     font-family: Satisfy;
     font-weight: 500;
     color: var(--primary-color);
 }
-.places__title-heading {
+.places__heading-main-title {
     margin-bottom: 40px;
     font-size: 65px;
     color: var(--text-color);
 }
-.places__title-content {
+.places__heading-desc {
     opacity: 0.8;
     line-height: 24px;
     font-size: 18px;
@@ -324,7 +324,7 @@ select.slier1__form-input, option {
 .places__warp a {
     display: block;
 }
-.places__title {
+.places__heading{
     height: 200px;
 }
 
@@ -413,4 +413,41 @@ select.slier1__form-input, option {
     margin-top: 32px;
     margin-bottom: 100px;
     display: block;
+}
+
+/* Examples places */
+.ex__heading {
+    background: url(./img/ex-heading.jpg) no-repeat center / cover ;
+    /* height: 790px; */
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white-color);
+}
+.ex__heading-sub-title {
+    font-family: Satisfy;
+    font-size: 40px;
+    margin-top: 120px;
+    font-weight: 400;
+}
+.ex__heading-main-title {
+    text-align: center;
+    font-size: 64px;
+    margin-top: 48px;
+}
+
+.ex__heading-desc {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 26px;
+    width: 40%;
+}
+.video__frame {
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.ex__content {
+    height: 500px;
 }

@@ -74,22 +74,48 @@
     .slider1__sub-content {
         margin-top: -320px;
     }
-    .places__title {
+    .places__heading {
         padding: 0;
         margin-top: 148px;
         margin-bottom: 72px;
     }
-    .places__title-sub-title, .places__title-heading {
+    .places__heading-sub-title, .places__heading-main-title {
         margin-bottom: 28px;
     }
-    .places__title-heading {
+    .places__heading-main-title {
         font-size: 32px;
+        line-height: 32px;
     }
     .places__item > div {
     }
     .places__footer-img {
         height: 72px;
         margin-bottom: 60px;
+    }
+    .ex__heading-sub-title {
+        font-family: Satisfy;
+        font-size: 40px;
+        margin-top: 120px;
+        font-weight: 400;
+    }
+    .ex__heading-main-title {
+        text-align: center;
+        font-size: 40px;
+        line-height: 46px;
+        margin-top: 20px;
+        width: 70%;
+    }
+    .ex__heading-desc {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 26px;
+        width: 70%;
+    }
+    .video__frame {
+        height: 200px;
+        margin-top: 50px;
+        padding-bottom: 20px;
     }
 }
     
@@ -181,7 +207,7 @@
     .slider1__form {
         width: 70vw;
     }
-    .places__title {
+    .places__heading {
         padding: 0 10%;
         margin-top: 350px;
     }
