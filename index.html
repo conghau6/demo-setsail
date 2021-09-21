@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lê Công Hậu demo</title>
+        <link rel="stylesheet" href="./assets/grid.css">
         <link rel="stylesheet" href="./assets/style.css">
         <link rel="stylesheet" href="./assets/base.css">
         <link rel="stylesheet" href="./assets/responsive.css">
-        <link rel="stylesheet" href="./assets/grid.css">
         <link rel="stylesheet" href="./assets/item-grid.css">
 
         <!-- owl Crousel -->
@@ -391,15 +391,79 @@
     <div class="places__slider">
       <div class="places__slider-heading">
         <h3 class="places__slider-heading-sub-title">
-          Go & Discover
+          Plan The
         </h3>
         <h1 class="places__slider-heading-main-title">
-          Breathtaking Cities
+          Perfect Holiday
         </h1>
         <p class="places__slider-heading-desc">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the
         </p>
+      </div>
+      <div class="places__slider-body">
+        <div class="places__slider-slide">
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              ôger
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              gre
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              gẻ
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              jy
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              jrt
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              li
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              jrt
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              li
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              jrt
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              li
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              jrt
+            </div>
+          </div>
+          <div class="places__slider-item-wrap">
+            <div class="places__slider-item">
+              li
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 </body>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -407,7 +471,7 @@
 <script type="text/javascript" src="./assets/slick-1.8.1/slick/slick.min.js"></script>
 <script>
     $(document).ready(function(){
-  $('.slider1').slick({
+    $('.slider1').slick({
     dots: false,
     slidesToShow: 1,
     infinite: true,
@@ -444,6 +508,56 @@
           autoplaySpeed: 2000,
           speed: 500,
           fade: true,
+          arrows: false,
+          cssEase: 'linear'
+        }
+      }
+      
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+  });
+});
+
+$(document).ready(function(){
+    $('.places__slider-slide').slick({
+    dots: true,
+    slidesToShow: 4,
+    infinite: true,
+    slidesToScroll: 4,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 500,
+    fade: false,
+    cssEase: 'linear',
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          dots: true,
+          slidesToShow: 1,
+          infinite: true,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          speed: 500,
+          fade: false,
+          arrows: false,
+          cssEase: 'linear'
+        }
+      },
+      {
+        breakpoint: 740,
+        settings: {
+          dots: true,
+          slidesToShow: 1,
+          infinite: true,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          speed: 500,
+          fade: false,
           arrows: false,
           cssEase: 'linear'
         }

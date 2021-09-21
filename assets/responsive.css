@@ -79,10 +79,12 @@
         margin-top: 148px;
         margin-bottom: 72px;
     }
-    .places__heading-sub-title, .places__heading-main-title {
+    .places__heading-sub-title, .places__heading-main-title,
+    .places__slider-heading-main-title {
         margin-bottom: 28px;
     }
-    .places__heading-main-title {
+    .places__heading-main-title,
+    .places__slider-heading-main-title {
         font-size: 32px;
         line-height: 32px;
     }
@@ -105,7 +107,8 @@
         margin-top: 20px;
         width: 70%;
     }
-    .ex__heading-desc {
+    .ex__heading-desc,
+    .places__slider-heading-desc  {
         text-align: center;
         margin-top: 20px;
         font-size: 18px;
@@ -125,6 +128,9 @@
     }
     .content__hint-desc {
         padding: 0 20%;
+    }
+    .places__slider-item {
+        width: 100%;
     }
 }
     
@@ -232,6 +238,9 @@
     }
     .content__hint-desc {
         padding: 0 20%;
+    }
+    .places__slider-item {
+        width: 100%;
     }
 }
 
